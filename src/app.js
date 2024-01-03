@@ -3,6 +3,4 @@ import ReactDOM from 'react-dom'
 import IndecisionApp  from './components/indecision-app.component';
 
 
-
-
-ReactDOM.render(<IndecisionApp />, document.getElementById('app'));
+ReactDOM.render(<IndecisionApp/>, document.getElementById('app'));
