@@ -1,6 +1,5 @@
 import React from 'react';
-const Action = (props) => {
-    return(
+const Action = (props) => (
         <div>
             <button 
             disabled={!props.hasOptions} 
@@ -9,5 +8,5 @@ const Action = (props) => {
             </button>
         </div>
     );
-};
+
 export default Action;
